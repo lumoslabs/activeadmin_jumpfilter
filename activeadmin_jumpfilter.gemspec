@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files`.split("\n").sort
   s.require_paths = ["lib"]
 
-  s.add_dependency("activeadmin", "~> 0.3.4")
+  s.add_dependency("activeadmin", ">= 0.3.4")
 end
